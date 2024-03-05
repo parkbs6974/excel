@@ -1,0 +1,23 @@
+{
+  "name": "excel",
+  "version": "1.0.0",
+  "description": "use it to convert excel ",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon connection.js"
+  },
+  "author": "jay",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.8",
+    "csv-writer": "^1.6.0",
+    "express": "^4.18.2",
+    "iconv-lite": "^0.6.3",
+    "json2csv": "^6.0.0-alpha.2",
+    "mysql": "^2.18.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
